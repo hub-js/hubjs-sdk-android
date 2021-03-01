@@ -1,4 +1,4 @@
-Matomo SDK for Android
+Hubjs SDK for Android
 ========================
 
 ## Quickstart
