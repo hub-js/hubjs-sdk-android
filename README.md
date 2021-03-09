@@ -2,12 +2,8 @@ Hubjs SDK for Android
 ========================
 
 ## Quickstart
-* Include the library in your app modules `build.gradle` file
-```groovy
-    implementation 'org.hubjs.sdk:tracker:<latest-version>'
-```
 
-* Now you need to initialize your `Tracker`. It's recommended to store it as singleton. You can extend `HubjsApplication` or create and store a `Tracker` instance yourself:
+* You need to initialize your `Tracker`. It's recommended to store it as singleton. You can extend `HubjsApplication` or create and store a `Tracker` instance yourself:
 ```java
 import org.hubjs.sdk.TrackerBuilder;
 
@@ -31,3 +27,7 @@ TrackHelper.track().screen("/activity_main/activity_settings").title("Settings")
 // Monitor your app installs
 TrackHelper.track().download().with(tracker);
 ```
+
+## Note
+
+* The `EcommerceItems` and `order(orderId, grantTotal)` must be multiply by 100. Cause from SDK based on dolar & convert it from cent.
