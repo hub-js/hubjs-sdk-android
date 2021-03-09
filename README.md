@@ -30,4 +30,4 @@ TrackHelper.track().download().with(tracker);
 
 ## Note
 
-* The `EcommerceItems` and `order(orderId, grantTotal)` must be multiply by 100. Cause from SDK based on dolar & convert it from cent.
+* When use `EcommerceItems` and `order(orderId, grantTotal)`, the `grantTotal` and `price()` must be multiply by 100. Cause from SDK based on dolar & convert it from cent.
