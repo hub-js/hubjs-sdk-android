@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.hubjs.tracker">
+    package="org.hubjs.sdk">
 
     <uses-sdk tools:overrideLibrary="timber.log"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -10,7 +10,7 @@
     <application>
         <!-- Suppress warning about unrestricted access to this receiver this is need to check which app store installed the app -->
         <receiver
-            android:name="org.hubjs.tracker.extra.InstallReferrerReceiver"
+            android:name="org.hubjs.sdk.extra.InstallReferrerReceiver"
             android:exported="true"
             tools:ignore="ExportedReceiver">
             <intent-filter>

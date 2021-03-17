@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.hubjs.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:6:5-66
+11-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:7:5-78
+12-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:8:5-75
+13-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:8:22-73
+14
+15    <application
+15-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:10:5-38:19
+16        android:name="org.hubjs.demo.DemoApp"
+16-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:11:9-46
+17        android:allowBackup="true"
+17-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:13:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.1] /home/thaolx/.gradle/caches/transforms-2/files-2.1/8dbd859d1cd89239b42e7382b4fc40d7/core-1.3.1/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@drawable/ic_launcher"
+21-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:14:9-45
+22        android:label="@string/app_name"
+22-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:15:9-41
+23        android:theme="@style/AppTheme"
+23-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:16:9-40
+24        android:usesCleartextTraffic="true" >
+24-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:12:9-44
+25        <activity
+25-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:17:9-27:20
+26            android:name="org.hubjs.demo.DemoActivity"
+26-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:18:13-55
+27            android:alwaysRetainTaskState="true"
+27-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:19:13-49
+28            android:label="@string/app_name"
+28-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:20:13-45
+29            android:launchMode="singleInstance" >
+29-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:21:13-48
+30            <intent-filter>
+30-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:22:13-26:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:23:17-68
+31-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:23:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:25:17-76
+33-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:25:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:28:9-37:20
+37            android:name="org.hubjs.demo.SettingsActivity"
+37-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:29:13-59
+38            android:alwaysRetainTaskState="true"
+38-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:30:13-49
+39            android:label="@string/title_activity_settings"
+39-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:31:13-60
+40            android:launchMode="singleInstance"
+40-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:32:13-48
+41            android:parentActivityName="org.hubjs.demo.DemoActivity" >
+41-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:33:13-69
+42            <meta-data
+42-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:34:13-36:62
+43                android:name="android.support.PARENT_ACTIVITY"
+43-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:35:17-63
+44                android:value="org.hubjs.demo.DemoActivity" />
+44-->/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/AndroidManifest.xml:36:17-60
+45        </activity>
+46        <!-- Suppress warning about unrestricted access to this receiver this is need to check which app store installed the app -->
+47        <receiver
+47-->[:tracker] /home/thaolx/AndroidStudioProjects/tracking/tracker/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-26:20
+48            android:name="org.hubjs.sdk.extra.InstallReferrerReceiver"
+48-->[:tracker] /home/thaolx/AndroidStudioProjects/tracking/tracker/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-71
+49            android:exported="true" >
+49-->[:tracker] /home/thaolx/AndroidStudioProjects/tracking/tracker/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-36
+50            <intent-filter>
+50-->[:tracker] /home/thaolx/AndroidStudioProjects/tracking/tracker/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-25:29
+51                <action android:name="com.android.vending.INSTALL_REFERRER" />
+51-->[:tracker] /home/thaolx/AndroidStudioProjects/tracking/tracker/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-79
+51-->[:tracker] /home/thaolx/AndroidStudioProjects/tracking/tracker/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:25-76
+52            </intent-filter>
+53        </receiver>
+54    </application>
+55
+56</manifest>

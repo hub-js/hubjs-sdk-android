@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/thaolx/AndroidStudioProjects/tracking/demo/build/intermediates/res/merged/debug/menu_demo.xml.flat",
+        "source": "/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/res/menu/demo.xml"
+    },
+    {
+        "merged": "/home/thaolx/AndroidStudioProjects/tracking/demo/build/intermediates/res/merged/debug/layout_activity_settings.xml.flat",
+        "source": "/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/thaolx/AndroidStudioProjects/tracking/demo/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/thaolx/AndroidStudioProjects/tracking/demo/build/intermediates/res/merged/debug/layout_activity_demo.xml.flat",
+        "source": "/home/thaolx/AndroidStudioProjects/tracking/demo/src/main/res/layout/activity_demo.xml"
+    }
+]

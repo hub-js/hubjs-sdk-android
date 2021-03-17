@@ -1,0 +1,13 @@
+org/hubjs/demo/DemoActivity.java
+ org.hubjs.demo.DemoActivity
+org/hubjs/demo/SettingsActivity.java
+ org.hubjs.demo.SettingsActivity
+ org.hubjs.demo.SettingsActivity$1
+ org.hubjs.demo.SettingsActivity$2
+ org.hubjs.demo.SettingsActivity$3
+ org.hubjs.demo.SettingsActivity$4
+ org.hubjs.demo.SettingsActivity$5
+org/hubjs/demo/DemoApp.java
+ org.hubjs.demo.DemoApp
+org/hubjs/demo/BuildConfig.java
+ org.hubjs.demo.BuildConfig

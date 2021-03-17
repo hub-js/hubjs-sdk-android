@@ -1,3 +1,2 @@
 include ':tracker'
-include ':app'
-rootProject.name = "tracking"
+include ':demo'
