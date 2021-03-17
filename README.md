@@ -12,11 +12,9 @@ Hubjs SDK for Android
 		}
 	}
 ```
-* Add dependency:
-```groove
-    dependencies {
-	        implementation 'com.github.hub-js:hubjs-sdk-android:Tag'
-	}
+* Include the library in your app modules `build.gradle` file
+```groovy
+    implementation 'com.github.hub-js:hubjs-sdk-android:1.0.0'
 ```
 * You need to initialize your `Tracker`. It's recommended to store it as singleton. You can extend `HubjsApplication` or create and store a `Tracker` instance yourself:
 ```java
