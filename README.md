@@ -1,8 +1,23 @@
 Hubjs SDK for Android
 ========================
+[![](https://jitpack.io/v/hub-js/hubjs-sdk-android.svg)](https://jitpack.io/#hub-js/hubjs-sdk-android)
 
 ## Quickstart
-
+* Add your root `build.gradle` at the end of repositories:
+```groove
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+* Add dependency:
+```groove
+    dependencies {
+	        implementation 'com.github.hub-js:hubjs-sdk-android:Tag'
+	}
+```
 * You need to initialize your `Tracker`. It's recommended to store it as singleton. You can extend `HubjsApplication` or create and store a `Tracker` instance yourself:
 ```java
 import org.hubjs.sdk.TrackerBuilder;
