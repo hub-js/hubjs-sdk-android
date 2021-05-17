@@ -8,6 +8,7 @@ import org.hubjs.sdk.TrackerBuilder;
 
 public abstract class HubjsApplication extends Application {
     private Tracker mHubjsTracker;
+    private boolean firstOpened = true;
 
     public Hubjs getHubjs() {
         return Hubjs.getInstance(this);
@@ -45,4 +46,24 @@ public abstract class HubjsApplication extends Application {
         super.onTrimMemory(level);
     }
 
+    @Override
+    public void registerActivityLifecycleCallbacks(ActivityLifecycleCallbacks callback) {
+        super.registerActivityLifecycleCallbacks(callback);
+
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        registerActivityLifecycleCallbacks(new DeepLinkActivityLifecycleCallbacks());
+    }
+
+    public boolean isFirstOpened() {
+        return firstOpened;
+    }
+
+    public void setFirstOpened() {
+        firstOpened = false;
+    }
 }
+
